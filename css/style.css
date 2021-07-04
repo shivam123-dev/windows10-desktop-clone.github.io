@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://venturebeat.com/wp-content/uploads/2018/11/windows-10-2018-insider-wallpaper.jpg?fit=2000%2C1000&strip=all');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.taskbar {
+    background-color: #21252b;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.taskbar-right {
+    position: absolute;
+    right: 0;
+}
+
+.start-menu {
+    position: absolute;
+    bottom: -563px;
+    transition: all 0.3s ease-in-out;
+}
+
+.taskbar-right-upper {
+    position: absolute;
+    bottom: -123px;
+    right: 97px;
+    transition: all 0.1s ease-in-out;
+}
+
+.color-white {
+    color: white;
+}
+
+.desktop-icons-chrome {
+    position: absolute;
+    left: 7px;
+    top: 12px;
+    width: 44px;
+    height: auto;
+    display: block;
+}
+
+.desktop-icons-edge {
+    position: absolute;
+    left: 7px;
+    top: 89px;
+    width: 44px;
+    height: auto;
+    display: block;
+}
+
+.figcaption::selection {
+    background-color: red;
+}
+
+.figcaption-chrome {
+    position: relative;
+    top: 56px;
+    left: 3px;
+}
+
+.figcaption-edge {
+    position: relative;
+    top: 120px;
+    left: 11px;
+}
